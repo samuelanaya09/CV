@@ -1,0 +1,105 @@
+/*LIBRARY OF FONTS*/
+@font-face{
+    font-family: ubuntutall;
+    src: url(../fonts/Lato-Bold.ttf) format(truetype);}
+@font-face{
+    font-family: ubuntumedium;
+    src: url(../fonts/Lato-Regular.ttf) format(truetype);}
+@font-face{
+    font-family: ubuntusmall;
+    src: url(../fonts/Lato-Light.ttf) format(truetype);}
+@font-face{
+    font-family: ubuntublack;
+    src: url(../fonts/Lato-Black.ttf) format(truetype);}
+@font-face{
+    font-family: monserratextra;
+    src: url(../fonts/Montserrat-ExtraLight.ttf) format(truetype);}
+@font-face{
+    font-family: monserratmedium;
+    src: url(../fonts/Montserrat-Medium.ttf) format(truetype);}
+/*PAGE PROPERTIES*/
+#FLEX{
+    height: 900px;
+    width: 600px;
+    margin: auto;
+    border: 4px solid rgb(199, 199, 199);
+    display: flex;}
+/*PROPERTIES-LEFT*/
+#contenedor-primario{
+    height: 900px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;}
+/*PICTURE*/
+img{
+    border: 1px solid white;
+    border-radius: 100px;}
+.foto{
+    padding: 30px;}
+/*PROPERTIES-BOX*/
+.caja-de-informacion{
+    padding: 0px 20px 10px 20px;}
+/*PROPERTIES OF TEXT FRAMES*/
+.caja-de-informacion > h3, h6{
+    margin: 0px;
+    padding: 5px 0px 0px 0px;}
+/*PROPETIES-RIGHT*/
+#contenedor-secundario{
+    height: 900px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;}
+/*PROPERTIES-BOX-TWO*/
+.caja-de-informacion2{
+    margin: 0px;
+    padding: 40px 40px;}
+/*ALIGNMENT & FONTS*/
+/*NAME & LASTNAME*/
+.caja-de-informacion2 > h1{
+    font-family: ubuntublack; 
+    margin: 0px;
+    text-align: center;}
+/*AREA DE DESEMPEÑO*/
+.caja-de-informacion2 > h4{
+    font-family: ubuntumedium; 
+    font-size: 12px;
+    margin: 0px;
+    text-align: center;}
+/*SECTION*/
+.caja-de-informacion > h3{
+    font-family: monserratextra;
+    font-size: 15px;
+    letter-spacing: 4px;
+    color: rgb(177,181,182);}
+/*SMALL-TEXT*/
+.caja-de-informacion > h6{
+    font-family: ubuntusmall;
+    text-align:left;}
+/*LIST*/
+.caja-de-informacion > ul > li{
+    font-family: ubuntumedium;
+    font-size: 3.3mm;}
+/*FOOTER*/
+footer > h5{
+    padding:0px; font-family: ubuntusmall;
+    text-align: center; background: rgb(235, 235, 235);}      
+/*VISOR-LIMITS*/
+.VISOR ,.foto{
+    border: 0px solid gray;}
+/*COLORS*/
+/*PAGE COLOR*/
+.color-left{
+    background-color: rgb(255,255,255);}
+.color-right{
+    background: rgb(235, 235, 235);}
+/*TEXT COLOR BY SECTION*/
+h5, h6, ul>li{
+    color: gray;}
+h1, h4{
+    color: black;} 
+hr{
+    height: 2px;}
+img:hover{
+    box-shadow: 0 0 3px 3px rgb(124, 124, 124);
+    border-radius: 100px;}
+ /*FIN*/

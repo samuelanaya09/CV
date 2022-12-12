@@ -1,0 +1,209 @@
+/*id de el flexbox*/
+#flex-container{
+    display: flex;
+    height: 710px;
+    flex-wrap: nowrap;
+    align-content: center;
+    background-color: rgb(233, 234, 235);
+  }
+/*fuentes*/
+@font-face{
+    font-family: ubuntutall;
+    src: url(../fonts/Lato-Bold.ttf) format(truetype);
+}
+@font-face{
+    font-family: ubuntumedium;
+    src: url(../fonts/Lato-Regular.ttf) format(truetype);
+}
+@font-face{
+    font-family: ubuntusmall;
+    src: url(../fonts/Lato-Light.ttf) format(truetype);
+}
+@font-face{
+    font-family: ubuntublack;
+    src: url(../fonts/Lato-Black.ttf) format(truetype);
+}
+@font-face{
+    font-family: monserratextra;
+    src: url(../fonts/static/Montserrat-ExtraLight.ttf) format(truetype);
+}
+@font-face{
+    font-family: secundary;
+    src: url(../fonts/static/Montserrat-Medium.ttf) format(truetype);
+}
+/*cuerpo en donde van los id*/
+body{
+    border: 5px solid rgb(235, 235, 235);
+    margin:auto;
+    width: 600px;
+    height: 710px;
+   
+}
+/* clase principal*/
+.a1{
+    background-color: #ffffff;
+    width: 200px;
+    text-align: left;
+    font-size: 20px;
+    padding: 10px;
+    flex-direction: column;
+}
+/* clase secundaria*/
+.a2{
+    padding: 10px;
+    font-size: 20px;
+    flex-direction: column;
+}
+/*foto de perfil > principal*/
+.a1 > img{
+    width: 120px;
+    margin: 30px;
+}
+/*tamaño de cuadros> principal*/
+.prfl{
+    border: 0px solid #ebe5e5;/*visualizador de borde*/
+    margin:auto;
+    width: 150px;
+    height: 140px;
+}
+.cntcts{
+    border: 0px solid #ebe5e5;/*visualizador de borde*/
+    margin:auto;
+    width: 150px;
+    height: 200px;
+    margin-top: 10px;
+}
+
+/*tamaño de cuadros > secundaria*/
+.name{
+    border: 0px solid #ebe5e5;/*visualizador de borde*/
+    margin:auto;
+    width: 300px;
+    height: 140px;
+    margin-bottom: 10px;
+}
+.hbldds{
+    border: 0px solid #ebe5e5;/*visualizador de borde*/
+    margin:auto;
+    width: 300px;
+    height: 130px;
+}
+.exprc-labrl{
+    border: 0px solid #c1c1c1;/*visualizador de borde*/
+    margin:10px;
+    width: 300px;
+    height: 190px;
+}
+.edccn{
+    border: 0px solid #ebe5e5;/*visualizador de borde*/
+    margin:auto;
+    width: 300px;
+    height: 190px;
+}
+/*fuentes asignadas*/
+.name > h1{
+    text-align: center;
+    font-size: 30px;
+    margin: 0px 0px;
+    font-family: ubuntublack;
+}
+.name > h6{
+        font-family: ubuntumedium;
+    font-size: 8px;
+    color: rgb(67, 67, 67);
+}
+/*separadora> principal*/
+.prfl > hr{
+    height: 3px;
+    background-color: rgb(125, 130, 133);
+    border: 0px;
+    margin-right: 200px;
+    margin: 0px 0px;
+}
+.cntcts > hr{
+    height: 3px;
+    background-color: gray;
+    border: 0px;
+    margin-right: 200px;
+    margin: 0px 0px
+}
+/*separadora > secundaria*/
+.text3 > hr{
+    height: 3.3px;
+    background-color: rgb(125, 130, 133);
+    border: 0px;
+    margin: 0px 0px 10px 0px;
+}
+/*fuente de textos y espaciado*/
+
+.prfl > h3{
+    font-family: monserratextra;
+    font-size: 13px;
+    margin: 5px 0px;
+    color: rgb(83, 83, 83);
+    letter-spacing: 4px;
+}
+.cntcts > h3{
+    font-family:monserratextra;
+    font-size: 13px;
+    margin: 7px 0px;
+    color: rgb(103, 103, 103);
+    letter-spacing: 4px;
+}
+.prfl > h6{
+    font-family: ubuntublack;
+    font-size: 9px;
+    margin: 10px 0px;
+    line-height: 14px;
+    color: rgb(86, 86, 86);
+}
+/*iconos*/
+.cntcts > h6 >i{
+    margin: 3px;
+    color: black;
+}
+/*fuentes asignadas*/
+.cntcts > h6{
+    font-family: ubuntumedium;
+    font-size: 8px;
+    margin: 10px 0px;
+    color: rgb(67, 67, 67);
+}
+.text3 > pre{
+    font-family: secundary;
+    font-size: 13px;
+    margin: 0px 0px 10px 0px;
+    color: rgb(128, 128, 128);
+    letter-spacing: 4px;
+}
+.text3 > ul{
+    font-family: ubuntublack;
+    font-size: 9px;
+    color: rgb(67, 67, 67);
+    line-height: 15px;
+    padding: 0px;
+    
+    border: 1px solid black;/*visualizador de borde*/
+}
+.text3 > h3{
+    font-family: ubuntumedium;
+    font-size: 9px;
+    color: rgb(67, 67, 67);
+    line-height: 10px;
+    border: 1px solid black;/*visualizador de borde*/
+}
+.text3 > h4{
+    font-family: ubuntumedium;
+    font-size: 8px;
+    color: rgb(67, 67, 67);
+    border: 1px solid black;/*visualizador de borde*/
+}
+.text3{
+    border: 1px solid black;/*visualizador de borde*/
+    padding: 10px;
+
+}
+
+
+
+
