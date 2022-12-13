@@ -214,13 +214,16 @@ img:hover {
   }
   #contenedor-secundario {
     height: 700px;
-    width: 300px;
+    width: 250px;
   }
   img {
     width: 80%;
   }
   h5{
     font-size: 10px;
+  }
+  h6{
+    font-size: 8px
   }
 }
 /*FIN*/
