@@ -200,27 +200,27 @@ img:hover {
   }
   .caja-de-informacion > h3 {
     font-family: monserratextra;
-    font-size: 13px;
+    font-size: 10px;
     letter-spacing: 4px;
     color: rgb(177, 181, 182);
   }
   .caja-de-informacion > ul > li {
     font-family: ubuntumedium;
-    font-size: 2.8mm;
+    font-size: 2.5mm;
   }
   #contenedor-primario {
     height: 700px;
-    width: 90px;
+    width: 80px;
   }
   #contenedor-secundario {
     height: 700px;
-    width: 130px;
+    width: auto;
   }
   img {
     width: 80%;
   }
   h5{
-    font-size: 10px;
+    font-size: 9px;
   }
 }
 /*FIN*/
