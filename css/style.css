@@ -227,13 +227,13 @@ img:hover {
     font-size: 8px;
   }
   h1{
-    font-size: 25px;
+    font-size: 20px;
   }
   h4{
-    font-size: 2.5mm;
+    font-size: 2mm;
   }
 .caja-de-informacion {
-  padding: 0px 20px 10px 5px;
+  padding: 0px 10px 10px 10px;
 }
 }
 /*FIN*/
