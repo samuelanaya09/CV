@@ -196,7 +196,7 @@ img:hover {
 @media screen and (max-width: 575px) {
   #FLEX {
     height: 700px;
-    width: 220px;
+    width: auto;
   }
   .caja-de-informacion > h3 {
     font-family: monserratextra;
