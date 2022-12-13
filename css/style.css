@@ -196,7 +196,7 @@ img:hover {
 @media screen and (max-width: 575px) {
   #FLEX {
     height: 700px;
-    width: 450px;
+    width: 310px;
   }
   .caja-de-informacion > h3 {
     font-family: monserratextra;
@@ -206,21 +206,21 @@ img:hover {
   }
   .caja-de-informacion > ul > li {
     font-family: ubuntumedium;
-    font-size: 2.8mm;
+    font-size: 2.4mm;
   }
   #contenedor-primario {
     height: 700px;
-    width: 200px;
+    width: 130px;
   }
   #contenedor-secundario {
     height: 700px;
-    width: 250px;
+    width: 180px;
   }
   img {
     width: 80%;
   }
   h5{
-    font-size: 10px;
+    font-size: 9px;
   }
   h6{
     font-size: 8px
