@@ -196,7 +196,7 @@ img:hover {
 @media screen and (max-width: 575px) {
   #FLEX {
     height: 700px;
-    width: 400px;
+    width: 220px;
   }
   .caja-de-informacion > h3 {
     font-family: monserratextra;
@@ -210,11 +210,11 @@ img:hover {
   }
   #contenedor-primario {
     height: 700px;
-    width: 200px;
+    width: 90px;
   }
   #contenedor-secundario {
     height: 700px;
-    width: 300px;
+    width: 130px;
   }
   img {
     width: 80%;
