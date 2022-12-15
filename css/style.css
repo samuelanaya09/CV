@@ -40,6 +40,10 @@
 }
 /*PICTURE*/
 img {
+<<<<<<< HEAD
+=======
+  border: 1px solid white;
+>>>>>>> d4225206014cd83b48a202f6aeaf331e470ac54f
   border-radius: 100px;
   transition: 500ms;
 }
@@ -49,7 +53,10 @@ img {
 /*PROPERTIES-BOX*/
 .caja-de-informacion {
   padding: 0px 20px 10px 20px;
+<<<<<<< HEAD
   border: 0px solid black;
+=======
+>>>>>>> d4225206014cd83b48a202f6aeaf331e470ac54f
 }
 /*PROPERTIES OF TEXT FRAMES*/
 .caja-de-informacion > h3,
@@ -109,18 +116,32 @@ h6 {
 }
 /*FOOTER*/
 .copyrights > h5 {
+<<<<<<< HEAD
   padding: 0px;
+=======
+  padding: 0px ;
+>>>>>>> d4225206014cd83b48a202f6aeaf331e470ac54f
   font-family: ubuntusmall;
   text-align: center;
   transition: 500ms;
 }
 .copyrights{
+<<<<<<< HEAD
   height: 17px;
   width: auto;
   background: rgb(235, 235, 235);
   margin: 20px 0px;
 }
 /*VISOR-LIMITS*/
+=======
+    height: 17px;
+    width: auto;
+    background: rgb(235, 235, 235);
+    margin: 20px 0px;
+}
+/*VISOR-LIMITS*/
+.VISOR,
+>>>>>>> d4225206014cd83b48a202f6aeaf331e470ac54f
 .foto {
   border: 0px solid gray;
 }
@@ -143,18 +164,24 @@ h4 {
   color: black;
   transition: 500ms;
 }
+<<<<<<< HEAD
 hr{
   height: 2px;
   width: 60px;
   border: lightgray;
   margin-left: 0;
   background: lightgrey;
+=======
+hr {
+  height: 2px;
+>>>>>>> d4225206014cd83b48a202f6aeaf331e470ac54f
   transition: 400ms;
 }
 img:hover {
   box-shadow: 0 0 3px 3px rgb(124, 124, 124);
   border-radius: 100px;
 }
+<<<<<<< HEAD
 .i{
     font-size: 15px;
     padding-right: 3px;
@@ -172,6 +199,12 @@ img:hover {
 @media screen and (min-width: 1199px) {
   #FLEX {
     height: 650px;
+=======
+/*dispositivo xl*/
+@media screen and (min-width: 1199px) {
+  #FLEX {
+    height: 600px;
+>>>>>>> d4225206014cd83b48a202f6aeaf331e470ac54f
     width: 1000px;
   }
   .caja-de-informacion > h3 {
@@ -185,6 +218,7 @@ img:hover {
     font-size: 2.8mm;
   }
   #contenedor-primario {
+<<<<<<< HEAD
     height: 650px;
     width: 300px;
   }
@@ -194,6 +228,14 @@ img:hover {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+=======
+    height: 600px;
+    width: 300px;
+  }
+  #contenedor-secundario {
+    height: 600px;
+    width: 700px;
+>>>>>>> d4225206014cd83b48a202f6aeaf331e470ac54f
   }
   img {
     width: 70%;
@@ -201,12 +243,18 @@ img:hover {
   .caja-de-informacion > h3 {
     padding-left: 30px;
   }
+<<<<<<< HEAD
   .caja-de-informacion{
     width: 240px;
   }
   hr {
     width: 160px;
     height: 4px;
+=======
+  hr {
+    width: 160px;
+    height: 1px;
+>>>>>>> d4225206014cd83b48a202f6aeaf331e470ac54f
   }
 }
 /*dispositivos lg*/
@@ -218,10 +266,15 @@ img:hover {
 /*dispositivo sm*/
 @media screen and (max-width: 575px) {
   #FLEX {
+<<<<<<< HEAD
     height: auto;
     width: 310px;
     display: flex;
     flex-direction: column;
+=======
+    height: 700px;
+    width: 310px;
+>>>>>>> d4225206014cd83b48a202f6aeaf331e470ac54f
   }
   .caja-de-informacion > h3 {
     font-family: monserratextra;
@@ -234,16 +287,26 @@ img:hover {
     font-size: 2mm;
   }
   #contenedor-primario {
+<<<<<<< HEAD
     height: 400px;
     width: 310px;
   }
   #contenedor-secundario {
     height: 700px;
     width: 310px;
+=======
+    height: 700px;
+    width: 130px;
+  }
+  #contenedor-secundario {
+    height: 700px;
+    width: 180px;
+>>>>>>> d4225206014cd83b48a202f6aeaf331e470ac54f
   }
   img {
     width: 100%;
   }
+<<<<<<< HEAD
   h5 {
     font-size: 9px;
   }
@@ -271,4 +334,25 @@ img:hover {
 
 }
 
+=======
+  h5{
+    font-size: 9px;
+  }
+  h6{
+    font-size: 8px;
+  }
+  h1{
+    font-size: 20px;
+  }
+  h4{
+    font-size: 2mm;
+  }
+.caja-de-informacion {
+  padding: 0px 10px 10px 10px;
+}
+.foto {
+  padding: 15px;
+}
+}
+>>>>>>> d4225206014cd83b48a202f6aeaf331e470ac54f
 /*FIN*/
