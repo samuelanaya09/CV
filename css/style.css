@@ -1,248 +1,305 @@
 /*LIBRARY OF FONTS*/
 @font-face {
-    font-family: ubuntutall;
-    src: url(../fonts/Lato-Bold.ttf) format(truetype);
-  }
-  @font-face {
-    font-family: ubuntumedium;
-    src: url(../fonts/Lato-Regular.ttf) format(truetype);
-  }
-  @font-face {
-    font-family: ubuntusmall;
-    src: url(../fonts/Lato-Light.ttf) format(truetype);
-  }
-  @font-face {
-    font-family: ubuntublack;
-    src: url(../fonts/Lato-Black.ttf) format(truetype);
-  }
-  @font-face {
-    font-family: monserratextra;
-    src: url(../fonts/Montserrat-ExtraLight.ttf) format(truetype);
-  }
-  @font-face {
-    font-family: monserratmedium;
-    src: url(../fonts/Montserrat-Medium.ttf) format(truetype);
-  }
-  /*PAGE PROPERTIES*/
-  #container{
-    height: 990px;
-    width: 680px;
+  font-family: ubuntutall;
+  src: url(../fonts/Lato-Bold.ttf) format(truetype);
+}
+
+@font-face {
+  font-family: ubuntumedium;
+  src: url(../fonts/Lato-Regular.ttf) format(truetype);
+}
+
+@font-face {
+  font-family: ubuntusmall;
+  src: url(../fonts/Lato-Light.ttf) format(truetype);
+}
+
+@font-face {
+  font-family: ubuntublack;
+  src: url(../fonts/Lato-Black.ttf) format(truetype);
+}
+
+@font-face {
+  font-family: monserratextra;
+  src: url(../fonts/Montserrat-ExtraLight.ttf) format(truetype);
+}
+
+@font-face {
+  font-family: monserratmedium;
+  src: url(../fonts/Montserrat-Medium.ttf) format(truetype);
+}
+
+/*PAGE PROPERTIES*/
+#container {
+  height: 990px;
+  width: 680px;
+  margin: auto;
+  border: 4px solid rgb(199, 199, 199);
+  display: flex;
+  flex-direction: row;
+  transition: 400ms ease;
+}
+
+.BOX {
+  padding: 20px;
+  height: auto;
+}
+
+.BOX:nth-child(1) {
+  width: 200px;
+  background-color: white;
+}
+
+.BOX:nth-child(2) {
+  background: rgb(235, 235, 235);
+  width: 500px;
+}
+
+img {
+  width: 100px;
+  border-radius: 100px;
+  transition: 500ms;
+}
+
+img:hover {
+  width: 110px;
+  box-shadow: 0 0 3px 3px rgb(124, 124, 124);
+}
+
+.box_profile_name1 {
+  display: none;
+  transition: 4s easy;
+}
+
+.line {
+  width: 100px;
+  height: 1px;
+  margin: 0px;
+  background-color: gray;
+  border-color: transparent;
+
+}
+
+h1 {
+  font-family: ubuntutall
+}
+
+.profesion {
+  font-family: monserratextra;
+  letter-spacing: 3px;
+  color: darkslategrey;
+}
+
+.js,
+.html,
+.css {
+  margin: 0px 0px 40px 0px;
+  height: 4px;
+  background: darkslategray;
+  width: 300px;
+  border-color: transparent;
+}
+
+ul,
+h5 {
+  font-family: ubuntublack;
+  font-size: 3.3mm;
+  transition: 100ms;
+  color: rgb(78, 78, 78);
+}
+
+h3 {
+  font-family: monserratextra;
+  font-size: 15px;
+  letter-spacing: 2px;
+  color: gray;
+}
+
+.iconos {
+  margin-right: 10px;
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.flex{
+  width: 200px;
+  height: 70px;
+  display: flex;
+  padding: 20px 0px 0px 0px;
+}
+.text_contact h5{
+  margin: 2px 0px 7px 0px;
+  width: 160px;
+  height:15px;
+}
+/*mediaqueries*/
+
+@media screen and (min-width: 1025px) {
+  #container {
+    height: auto;
+    width: 900px;
     margin: auto;
-    border: 4px solid rgb(199, 199, 199);
+    border: 3px solid rgb(199, 199, 199);
     display: flex;
     flex-direction: row;
     transition: 400ms ease;
   }
-  .BOX{
-    padding: 20px;
-    height: auto;
-  }
-  .BOX:nth-child(1){
+
+  .BOX:nth-child(1) {
     width: 200px;
     background-color: white;
+    padding-top: 0px;
   }
-  .BOX:nth-child(2){
-    background: rgb(235, 235, 235);
-    width: 500px;
+
+  .BOX:nth-child(2) {
+    width: 700px;
+    background-color: rgb(235, 235, 235);
+    padding-top: 0px;
   }
-  img{
-    width: 100px;
-    border-radius: 100px;
-    transition: 500ms;
+
+  .foto {
+    padding: 20px;
   }
-  img:hover{
-    width: 110px;
-    box-shadow: 0 0 3px 3px rgb(124, 124, 124);
+}
+
+@media screen and (min-width: 1500px) {
+  #container {
+    height: 720px;
+    width: 1450px;
+    margin: auto;
+    border: 3px solid rgb(199, 199, 199);
+    display: flex;
+    flex-direction: row;
+    transition: 400ms ease;
   }
-  .box_profile_name1{
+
+  .BOX:nth-child(1) {
+    width: 200px;
+    background-color: white;
+    padding-top: 0px;
+  }
+
+  .BOX:nth-child(2) {
+    width: 1250px;
+    height: auto;
+    background-color: rgb(235, 235, 235);
+  }
+
+  .foto {
+    padding: 20px;
+  }
+ .box_knowing{
+  translate: 400px -380px;
+  }
+
+
+}
+
+@media screen and (max-width: 575px) {
+  #container {
+    height: auto;
+    width: 350px;
+    margin: auto;
+    border: 3px solid rgb(199, 199, 199);
+    display: flex;
+    flex-direction: column;
+    transition: 400ms ease;
+  }
+
+  .BOX:nth-child(2) {
+    width: auto;
+    background-color: white;
+    padding-top: 0px;
+  }
+
+  .box_profile_name2 {
     display: none;
     transition: 4s easy;
   }
-  .line{
-    width: 100px;
-    height: 1px;
-    margin: 0px;
-    background-color: gray;
-    border-color: transparent ;
 
+  .box_profile_name1 {
+    display: table-cell;
+    transition: 4s easy;
+    font-size: 13px;
+    padding-left: 40px;
   }
-  h1{
-    font-family: ubuntutall
+
+  .foto {
+    columns: 2;
   }
-  .profesion{
-    font-family: monserratextra;
-    letter-spacing: 3px;
-    color: darkslategrey;
+}
+
+@media screen and (max-width: 562px) {
+  #container {
+    height: auto;
+    width: 380px;
+    margin: auto;
+    border: 3px solid rgb(199, 199, 199);
+    display: flex;
+    flex-direction: column;
+    transition: 400ms ease;
   }
-  .js, 
-  .html, 
-  .css{
-      margin: 0px 0px 40px 0px;
-      height:4px;
-      background: darkslategray;
-      width: 300px;
-      border-color: transparent;
+}
+
+@media screen and (max-width: 380px) {
+  #container {
+    height: auto;
+    width: 310px;
+    margin: 10px;
+    border: 3px solid rgb(199, 199, 199);
+    display: flex;
+    flex-direction: column;
+    transition: 400ms ease;
   }
-  
-  ul ,h5{
-    font-family: ubuntublack;
-    font-size: 3.3mm;
-    transition: 100ms;
-    color:rgb(78, 78, 78);
-  }
-  h3{
-    font-family: monserratextra;
+
+  .box_profile_name1 {
+    display: table-cell;
+    transition: 4s easy;
     font-size: 15px;
-    letter-spacing: 2px;
-    color: gray;
-  }
-  /*mediaqueries*/
-
-  @media screen and (min-width: 1025px) {
-    #container{
-      height: auto;
-      width: 900px;
-      margin: auto;
-      border: 3px solid rgb(199, 199, 199);
-      display: flex;
-      flex-direction: row;
-      transition: 400ms ease;
-    }
-    .BOX:nth-child(1){
-      width: 200px;
-      background-color: white;
-      padding-top: 0px;
-    }
-    .BOX:nth-child(2){
-      width: 700px;
-      background-color: rgb(235, 235, 235);
-      padding-top: 0px;
-    }
-    .foto{
-      padding: 20px;
-    }
-  }
-  @media screen and (min-width: 1500px) {
-    #container{
-      height: 720px;
-      width: 1450px;
-      margin: auto;
-      border: 3px solid rgb(199, 199, 199);
-      display: flex;
-      flex-direction: row;
-      transition: 400ms ease;
-    }
-    .BOX:nth-child(1){
-      width: 200px;
-      background-color: white;
-      padding-top: 0px;
-    }
-    .BOX:nth-child(2){
-      width: 1250px;
-      background-color: rgb(235, 235, 235);
-    }
-    .foto{
-      padding: 20px;
-    }
-
-
+    padding-left: 40px;
   }
 
-  @media screen and (max-width: 575px) {
-    #container{
-      height: auto;
-      width: 350px;
-      margin: auto;
-      border: 3px solid rgb(199, 199, 199);
-      display: flex;
-      flex-direction: column;
-      transition: 400ms ease;
-    }
-    .BOX:nth-child(2){
-      width: auto;
-      background-color: white;
-      padding-top: 0px;
-    }
-    .box_profile_name2{
-      display: none;
-      transition: 4s easy;
-    }
-    .box_profile_name1{
-      display:table-cell;
-      transition: 4s easy;
-      font-size: 13px;
-      padding-left: 40px;
-    }
-    .foto{
-      columns: 2;
-    }
+  .box_profile_name1 {
+    font-size: 11px;
+    padding-left: 15px;
   }
-  @media screen and (max-width: 562px) {
-    #container{
-      height: auto;
-      width: 380px;
-      margin: auto;
-      border: 3px solid rgb(199, 199, 199);
-      display: flex;
-      flex-direction: column;
-      transition: 400ms ease;
-    }
-  }
-  @media screen and (max-width: 380px) 
-  {
-    #container{
-      height: auto;
-      width: 310px;
-      margin: 10px;
-      border: 3px solid rgb(199, 199, 199);
-      display: flex;
-      flex-direction: column;
-      transition: 400ms ease;
-    }
-    .box_profile_name1
-    {
-        display:table-cell;
-        transition: 4s easy;
-        font-size: 15px;
-        padding-left: 40px;
-    }
-    .box_profile_name1{
-      font-size: 11px;
-      padding-left: 15px;
-    }
-  }
-  @media screen and (max-width: 325px) 
-  {
-    #container{
-      height: auto;
-      width: 290px;
-      margin: auto;
-      border: 3px solid rgb(199, 199, 199);
-      display: flex;
-      flex-direction: column;
-      transition: 400ms ease;
-    }
-    .box_profile_name1{
-      font-size: 10px;
-      padding-left: 15px;
-    }
+}
 
+@media screen and (max-width: 325px) {
+  #container {
+    height: auto;
+    width: 290px;
+    margin: auto;
+    border: 3px solid rgb(199, 199, 199);
+    display: flex;
+    flex-direction: column;
+    transition: 400ms ease;
   }
-    @media screen and (max-width: 282px) 
-    {
-      #container{
-        height: auto;
-        width: 250px;
-        margin: auto;
-        border: 3px solid rgb(199, 199, 199);
-        display: flex;
-        flex-direction: column;
-        transition: 400ms ease;
-      }
-      .box_profile_name1{
-        font-size: 10px;
-        padding-left: 15px;
-      }
-  
 
+  .box_profile_name1 {
+    font-size: 10px;
+    padding-left: 15px;
   }
+
+}
+
+@media screen and (max-width: 282px) {
+  #container {
+    height: auto;
+    width: 250px;
+    margin: auto;
+    border: 3px solid rgb(199, 199, 199);
+    display: flex;
+    flex-direction: column;
+    transition: 400ms ease;
+  }
+
+  .box_profile_name1 {
+    font-size: 10px;
+    padding-left: 15px;
+  }
+
+
+}
