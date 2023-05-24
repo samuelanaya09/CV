@@ -192,6 +192,7 @@ h3 {
   }
  .box_knowing{
   translate: 400px -380px;
+  position: absolute;
   }
 
 
