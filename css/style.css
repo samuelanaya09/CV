@@ -180,7 +180,7 @@
   @media screen and (max-width: 562px) {
     #container{
       height: auto;
-      width: 330px;
+      width: 380px;
       margin: auto;
       border: 3px solid rgb(199, 199, 199);
       display: flex;
