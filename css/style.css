@@ -185,15 +185,18 @@ h3 {
     width: 1250px;
     height: auto;
     background-color: rgb(235, 235, 235);
+    display: grid;
+    grid-template-columns: repeat(2, 30%);
+  }
+  .box_profile_name2{
+    justify-content: stretch;
+    grid-column: 1/3;
   }
 
   .foto {
     padding: 20px;
   }
- .box_knowing{
-  translate: 400px -380px;
-  position: absolute;
-  }
+
 
 
 }
