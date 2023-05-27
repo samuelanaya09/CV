@@ -102,6 +102,7 @@ h1 {
   background: darkslategray;
   width: 300px;
   border: transparent;
+  border-radius: 2px;
 }
 
 h2 {
@@ -157,21 +158,10 @@ h5 {
   transition: 400ms linear;
 }
 
-.box_habilities {
-  order: 1;
-}
-
-.box_experience {
-  order: 2;
-}
-
-.box_education {
-  order: 3;
-}
-
-.box_knowing {
-  order: 4;
-}
+.box_habilities {order: 1;}
+.box_experience {order: 2;}
+.box_education {order: 3;}
+.box_knowing {order: 4;}
 
 
 /*mediaqueries*/
@@ -249,23 +239,10 @@ h5 {
 
   }
 
-  .box_habilities {
-    order: 1;
-  }
-
-  .box_experience {
-    order: 3;
-  }
-
-  .box_education {
-    order: 2;
-  }
-
-  .box_knowing {
-    order: 4;
-  }
-
-
+  .box_habilities {order: 1;}
+  .box_experience {order: 3;}  
+  .box_education {order: 2;}
+  .box_knowing {order: 4;}
 }
 
 
@@ -335,7 +312,7 @@ h5 {
 
   .box_profile_name1 {
     display: table-cell;
-    transition: 4s easy;
+    transition: .3s linear;
     font-size: 15px;
     padding-left: 40px;
   }
