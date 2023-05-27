@@ -37,7 +37,7 @@
   border: 4px solid rgb(199, 199, 199);
   display: flex;
   flex-direction: row;
-  transition: 400ms ease;
+  transition: 400ms linear;
 }
 
 .BOX {
@@ -68,7 +68,11 @@ img:hover {
 
 .box_profile_name1 {
   display: none;
-  transition: 4s easy;
+  justify-content: stretch;
+}
+
+.box_profile_name {
+  display: grid;
 }
 
 .line {
@@ -94,10 +98,24 @@ h1 {
 .html,
 .css {
   margin: 0px 0px 40px 0px;
-  height: 4px;
+  height: 2px;
   background: darkslategray;
   width: 300px;
-  border-color: transparent;
+  border: transparent;
+}
+
+h2 {
+  font-family: monserratextra;
+  font-size: 0.8em;
+  letter-spacing: 2px;
+  color: gray;
+}
+
+h3 {
+  font-family: monserratextra;
+  font-size: 1em;
+  letter-spacing: 2px;
+  color: gray;
 }
 
 ul,
@@ -108,12 +126,7 @@ h5 {
   color: rgb(78, 78, 78);
 }
 
-h3 {
-  font-family: monserratextra;
-  font-size: 15px;
-  letter-spacing: 2px;
-  color: gray;
-}
+
 
 .iconos {
   margin-right: 10px;
@@ -141,8 +154,25 @@ h3 {
 .box_education,
 .box_knowing {
   margin-top: 35px;
-  transition: 400ms ease;
+  transition: 400ms linear;
 }
+
+.box_habilities {
+  order: 1;
+}
+
+.box_experience {
+  order: 2;
+}
+
+.box_education {
+  order: 3;
+}
+
+.box_knowing {
+  order: 4;
+}
+
 
 /*mediaqueries*/
 
@@ -154,7 +184,7 @@ h3 {
     border: 3px solid rgb(199, 199, 199);
     display: flex;
     flex-direction: row;
-    transition: 400ms ease;
+    transition: 800ms linear;
   }
 
   .BOX:nth-child(1) {
@@ -182,7 +212,7 @@ h3 {
     border: 3px solid rgb(199, 199, 199);
     display: flex;
     flex-direction: row;
-    transition: 400ms ease;
+    transition: 400ms linear;
   }
 
   .BOX:nth-child(1) {
@@ -196,7 +226,7 @@ h3 {
     height: auto;
     background-color: rgb(235, 235, 235);
     display: grid;
-    grid-template-columns: repeat(2, 30%);
+    grid-template-columns: repeat(2, 25%);
   }
 
   .box_profile_name2 {
@@ -206,16 +236,40 @@ h3 {
   }
 
   .foto {
-    padding: 20px;
+    padding: 40px;
+    width: 100px;
   }
+
   .box_habilities,
-.box_experience,
-.box_education,
-.box_knowing {
-  margin: 0px;
-  transition: 400ms ease;
+  .box_experience,
+  .box_education,
+  .box_knowing {
+    margin: 0px;
+    transition: 400ms linear;
+
+  }
+
+  .box_habilities {
+    order: 1;
+  }
+
+  .box_experience {
+    order: 3;
+  }
+
+  .box_education {
+    order: 2;
+  }
+
+  .box_knowing {
+    order: 4;
+  }
+
+
 }
-}
+
+
+
 
 @media screen and (max-width: 575px) {
   #container {
@@ -225,7 +279,11 @@ h3 {
     border: 3px solid rgb(199, 199, 199);
     display: flex;
     flex-direction: column;
-    transition: 400ms ease;
+    transition: 400ms linear;
+  }
+
+  .BOX:nth-child(1) {
+    width: auto;
   }
 
   .BOX:nth-child(2) {
@@ -236,14 +294,15 @@ h3 {
 
   .box_profile_name2 {
     display: none;
-    transition: 4s easy;
   }
 
   .box_profile_name1 {
-    display: table-cell;
-    transition: 4s easy;
+    display: grid;
     font-size: 13px;
-    padding-left: 40px;
+  }
+
+  .box_information_profile {
+    width: 200px;
   }
 
   .foto {
@@ -259,7 +318,7 @@ h3 {
     border: 3px solid rgb(199, 199, 199);
     display: flex;
     flex-direction: column;
-    transition: 400ms ease;
+    transition: 400ms linear;
   }
 }
 
@@ -271,7 +330,7 @@ h3 {
     border: 3px solid rgb(199, 199, 199);
     display: flex;
     flex-direction: column;
-    transition: 400ms ease;
+    transition: 400ms linear;
   }
 
   .box_profile_name1 {
@@ -295,7 +354,7 @@ h3 {
     border: 3px solid rgb(199, 199, 199);
     display: flex;
     flex-direction: column;
-    transition: 400ms ease;
+    transition: 400ms linear;
   }
 
   .box_profile_name1 {
@@ -313,7 +372,7 @@ h3 {
     border: 3px solid rgb(199, 199, 199);
     display: flex;
     flex-direction: column;
-    transition: 400ms ease;
+    transition: 400ms linear;
   }
 
   .box_profile_name1 {
